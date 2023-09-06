@@ -1,0 +1,72 @@
+[
+  {
+    "model": "makeupapi.ProductType",
+    "pk": 1,
+    "fields": {
+      "label": "lipstick"
+    }
+  },
+  {
+    "model": "makeupapi.ProductType",
+    "pk": 2,
+    "fields": {
+      "label": "eyeshadow"
+    }
+  },
+  {
+    "model": "makeupapi.ProductType",
+    "pk": 3,
+    "fields": {
+      "label": "foundation"
+    }
+  },
+  {
+    "model": "makeupapi.ProductType",
+    "pk": 4,
+    "fields": {
+      "label": "blush"
+    }
+  },
+  {
+    "model": "makeupapi.ProductType",
+    "pk": 5,
+    "fields": {
+      "label": "contour"
+    }
+  },
+  {
+    "model": "makeupapi.ProductType",
+    "pk": 6,
+    "fields": {
+      "label": "bronzer"
+    }
+  },
+  {
+    "model": "makeupapi.ProductType",
+    "pk": 7,
+    "fields": {
+      "label": "concealer"
+    }
+  },
+  {
+    "model": "makeupapi.ProductType",
+    "pk": 8,
+    "fields": {
+      "label": "highlighter"
+    }
+  },
+  {
+    "model": "makeupapi.ProductType",
+    "pk": 9,
+    "fields": {
+      "label": "mascara"
+    }
+  },
+  {
+    "model": "makeupapi.ProductType",
+    "pk": 10,
+    "fields": {
+      "label": "Eyeliner"
+    }
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "model": "makeupapi.makeupskill",
+    "pk": 1,
+    "fields": {
+      "label": "beginner"
+    }
+  },
+  {
+    "model": "makeupapi.makeupskill",
+    "pk": 2,
+    "fields": {
+      "label": "intermediate"
+    }
+  },
+  {
+    "model": "makeupapi.makeupskill",
+    "pk": 3,
+    "fields": {
+      "label": "advanced"
+    }
+  },
+  {
+    "model": "makeupapi.makeupskill",
+    "pk": 4,
+    "fields": {
+      "label": "expert"
+    }
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "model": "makeupapi.Product",
+    "pk": 1,
+    "fields": {
+      "brand": "Maybelline",
+      "label": "Fit Me Matte + Poreless Foundation",
+      "price": 7.99,
+      "image": "https://www.ulta.com/images/products/226x400/2260137.jpg",
+      "description": "Fit Me Matte + Poreless Foundation face makeup. This lightweight foundation mattifies and refines pores and leaves a natural, seamless finish.",
+      "makeup_preferences": 9,
+      "link": "https://www.example.com/product1"
+    }
+  },
+  {
+    "model": "makeupapi.Product",
+    "pk": 2,
+    "fields": {
+      "brand": "MAC",
+      "label": "Studio Fix Powder Plus Foundation",
+      "price": 30.0,
+      "image": "https://www.maccosmetics.com/media/export/cms/products/640x600/mac_sku_M6G2_640x600_0.jpg",
+      "description": "A one-step powder and foundation that provides a matte texture with medium to full coverage.",
+      "makeup_preferences": 11,
+      "link": "https://www.example.com/product2"
+    }
+  },
+  {
+    "model": "makeupapi.Product",
+    "pk": 3,
+    "fields": {
+      "brand": "NARS",
+      "label": "Radiant Creamy Concealer",
+      "price": 30.0,
+      "image": "https://www.narscosmetics.com/dw/image/v2/AAWG_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dw2e44f742/hi-res/0607845014733.jpg?sw=600&sh=600&sm=fit",
+      "description": "A creamy concealer with hydrating, multi-action skincare benefits and light-diffusing technology to create a softer, smoother complexion.",
+      "makeup_preferences": 21,
+      "link": "https://www.example.com/product3"
+    }
+  },
+  {
+    "model": "makeupapi.Product",
+    "pk": 4,
+    "fields": {
+      "brand": "Urban Decay",
+      "label": "Naked Eyeshadow Palette",
+      "price": 54.0,
+      "image": "https://www.urbandecay.com/dw/image/v2/BBWV_PRD/on/demandware.static/-/Sites-itemmaster_UrbanDecay/default/dw2b9c19c8/hi-res/UD819.jpg?sw=600&sh=600&sm=fit",
+      "description": "A versatile eyeshadow palette featuring 12 neutral shades for creating a range of looks from natural to smoky.",
+      "makeup_preferences": 2,
+      "link": "https://www.example.com/product4"
+    }
+  },
+
+  {
+    "model": "makeupapi.Product",
+    "pk": 6,
+    "fields": {
+      "brand": "Fenty Beauty Foundation",
+      "label": "Pro Filt'r Soft Matte Longwear Foundation",
+      "price": 35.0,
+      "image": "https://www.fentybeauty.com/dw/image/v2/BBWM_PRD/on/demandware.static/-/Sites-itemmaster_FentyBeauty/default/dw6b21a5f8/hi-res/FB30001.jpg?sw=600&sh=600&sm=fit",
+      "description": "A soft matte, long-wear foundation with buildable, medium-to-full coverage for all skin tones.",
+      "makeup_preferences": 10,
+      "link": "https://www.example.com/product6"
+    }
+  },
+  {
+    "model": "makeupapi.Product",
+    "pk": 7,
+    "fields": {
+      "brand": "Too Faced",
+      "label": "Better Than Sex Mascara",
+      "price": 26.0,
+      "image": "https://www.toofaced.com/dw/image/v2/AAIW_PRD/on/demandware.static/-/Sites-itemmaster_toofaced/default/dwa53e1f4c/hi-res/6338.jpg?sw=600&sh=600&sm=fit",
+      "description": "A volumizing mascara that provides bold, dramatic lashes.",
+      "makeup_preferences": 26,
+      "link": "https://www.example.com/product7"
+    }
+  },
+  {
+    "model": "makeupapi.Product",
+    "pk": 8,
+    "fields": {
+      "brand": "Tarte",
+      "label": "Shape Tape Contour Concealer",
+      "price": 27.0,
+      "image": "https://www.tarte.com/dw/image/v2/AAJT_PRD/on/demandware.static/-/Sites-itemmaster-tarte/default/dw37c51b72/hi-res/846733018506-main.jpg?sw=600&sh=600&sm=fit",
+      "description": "A full-coverage, creamy concealer that brightens and contours the face.",
+      "makeup_preferences": 21,
+      "link": "https://www.example.com/product8"
+    }
+  },
+  {
+    "model": "makeupapi.Product",
+    "pk": 9,
+    "fields": {
+      "brand": "Benefit Cosmetics",
+      "label": "Hoola Matte Bronzer",
+      "price": 30.0,
+      "image": "https://www.benefitcosmetics.com/dw/image/v2/BBWK_PRD/on/demandware.static/-/Sites-itemmaster_BenefitCosmetics/default/dw5d050cd4/hi-res/Benefit-Cosmetics_08871_168821.jpg?sw=600&sh=600&sm=fit",
+      "description": "A matte bronzing powder for a sun-kissed glow.",
+      "makeup_preferences": 19,
+      "link": "https://www.example.com/product9"
+    }
+  },
+  {
+    "model": "makeupapi.Product",
+    "pk": 10,
+    "fields": {
+      "brand": "Kat Von D Beauty",
+      "label": "Tattoo Liner",
+      "price": 20.0,
+      "image": "https://www.katvondbeauty.com/dw/image/v2/BBWK_PRD/on/demandware.static/-/Sites-itemmaster_KatVonDBeauty/default/dw1c487647/hi-res/KVD.jpg?sw=600&sh=600&sm=fit",
+      "description": "A waterproof liquid eyeliner for creating precise, bold lines.",
+      "makeup_preferences": 28,
+      "link": "https://www.example.com/product10"
+    }
+  }
+]

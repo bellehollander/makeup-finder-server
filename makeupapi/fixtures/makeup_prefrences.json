@@ -1,0 +1,263 @@
+[
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 1,
+    "fields": {
+      "label": "Smoky Eyeshadow",
+      "image": "https://www.fabmood.com/inspiration/wp-content/uploads/2020/12/eye-makeup-looks-43.jpg",
+      "product_type": 2
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 2,
+    "fields": {
+      "label": "Earth Tones Eyeshadow",
+      "image": "https://media.istockphoto.com/id/519828383/photo/eye-makeup.jpg?s=612x612&w=0&k=20&c=sJfMdJejpTKTPZxJHxP5cA67Jbgjakbew1T2zqgzmZg=",
+      "product_type": 2
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 3,
+    "fields": {
+      "label": "Cool Tones Eyeshadow",
+      "image": "https://i.pinimg.com/originals/b5/9a/63/b59a63f00a262b80f64c387420e70543.jpg",
+      "product_type": 2
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 4,
+    "fields": {
+      "label": "Colorful Eyeshadow",
+      "image": "https://i.pinimg.com/1200x/31/e6/11/31e6113c83583dcced3e33edb1ac76b9.jpg",
+      "product_type": 2
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 5,
+    "fields": {
+      "label": "Dark Lipstick",
+      "image": "https://img.freepik.com/premium-photo/smudged-dark-red-claret-maroon-matte-lipstick-swatch-isolated-white-background_256904-170.jpg?w=2000",
+      "product_type": 1
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 6,
+    "fields": {
+      "label": "Berry Lipstick",
+      "image": "https://images.squarespace-cdn.com/content/v1/552b5271e4b01f43e14f32d6/1597033141016-A9JQXJK1N0370Z9BPLYO/Berry-berry-Swatch.png?format=300w",
+      "product_type": 1
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 7,
+    "fields": {
+      "label": "Nude Lipstick",
+      "image": "https://nudeenvie.com/cdn/shop/products/lipsswatch1_bd9e5e66-61c8-4406-9d12-cf7a97fe9927_1024x1024.png?v=1680672666",
+      "product_type": 1
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 8,
+    "fields": {
+      "label": "Gloss",
+      "image": "https://runwayroguebeauty.com/cdn/shop/products/photo-filter-or-pale-nude-runway-rogue-11.jpg?v=1660775921",
+      "product_type": 1
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 9,
+    "fields": {
+      "label": "Dewy Foundation",
+      "image": "https://i.ebayimg.com/images/g/kPAAAOSwWrxcT7Ud/s-l1200.jpg",
+      "product_type": 3
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 10,
+    "fields": {
+      "label": "Full Coverage Foundation",
+      "image": "https://images.ctfassets.net/wlke2cbybljx/6ffg9mHSLci7sRg79Gk732/9860991c79d1558aea9fa6ade0338596/Beaut_Skin_PLP.jpg?w=1600&fit=fill&fm=jpg",
+      "product_type": 3
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 11,
+    "fields": {
+      "label": "Light Coverage Foundation",
+      "image": "https://www.example.com/red-lipstick.jpg",
+      "product_type": 3
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 12,
+    "fields": {
+      "label": "berry tones blush",
+      "image": "https://www.temptalia.com/wp-content/uploads/2023/06/dior_berry-006_001_product.jpg",
+      "product_type": 4
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 13,
+    "fields": {
+      "label": "peach tones blush",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0t87lItfDHOLjztRyoTpSSpe_OyjRFqaqFQ&usqp=CAU",
+      "product_type": 4
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 14,
+    "fields": {
+      "label": "pink tones blush",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReEr6IsaXC1QBxNQvLt17W3i6AqXMVKiE8yg&usqp=CAU",
+      "product_type": 4
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 15,
+    "fields": {
+      "label": "red tones blush",
+      "image": "https://theworkingline.com/wp-content/uploads/2022/12/best-mac-blush-for-fair-skin-best-mac-blushes-for-pale-skin-best-mac-mineralize-blush-fair-skin-best-mac-blush-for-medium-skin-best-mac-blush-dark-skin-15.jpg",
+      "product_type": 4
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 16,
+    "fields": {
+      "label": "liquid contour",
+      "image": "https://www.example.com/red-lipstick.jpg",
+      "product_type": 5
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 17,
+    "fields": {
+      "label": "powder contour",
+      "image": "https://www.example.com/red-lipstick.jpg",
+      "product_type": 5
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 18,
+    "fields": {
+      "label": "stick contour",
+      "image": "https://www.example.com/red-lipstick.jpg",
+      "product_type": 5
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 19,
+    "fields": {
+      "label": "powder bronzer",
+      "image": "https://www.example.com/red-lipstick.jpg",
+      "product_type": 6
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 20,
+    "fields": {
+      "label": "cream bronzer",
+      "image": "https://www.example.com/red-lipstick.jpg",
+      "product_type": 6
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 21,
+    "fields": {
+      "label": "Full Coverage Concealer",
+      "image": "https://www.example.com/red-lipstick.jpg",
+      "product_type": 7
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 22,
+    "fields": {
+      "label": "Light Coverage Concealer",
+      "image": "https://www.example.com/red-lipstick.jpg",
+      "product_type": 7
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 23,
+    "fields": {
+      "label": "Silver Tones Highlighter",
+      "image": "https://i5.walmartimages.com/asr/f35b997b-5e86-44ac-b4a4-e9757de1bd88.e60b9de98a3458464d3d0c441e743b73.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+      "product_type": 8
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 24,
+    "fields": {
+      "label": "Purple Tones Highlighter",
+      "image": "https://media.allure.com/photos/589114178ad54a2e1fe178d3/master/w_1600%2Cc_limit/stila-purple-highlighter.jpg",
+      "product_type": 8
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 25,
+    "fields": {
+      "label": "Gold Tones Highlighter",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhOY-NNN13wNi586VPCvuI2xvme15WWDHsbA&usqp=CAU",
+      "product_type": 8
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 26,
+    "fields": {
+      "label": "Black Mascara",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhOY-NNN13wNi586VPCvuI2xvme15WWDHsbA&usqp=CAU",
+      "product_type": 9
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 27,
+    "fields": {
+      "label": "Colorful Mascara",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhOY-NNN13wNi586VPCvuI2xvme15WWDHsbA&usqp=CAU",
+      "product_type": 9
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 28,
+    "fields": {
+      "label": "Black eyeliner",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhOY-NNN13wNi586VPCvuI2xvme15WWDHsbA&usqp=CAU",
+      "product_type": 10
+    }
+  },
+  {
+    "model": "makeupapi.MakeupPreferences",
+    "pk": 29,
+    "fields": {
+      "label": "colorful eyeliner",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhOY-NNN13wNi586VPCvuI2xvme15WWDHsbA&usqp=CAU",
+      "product_type": 10
+    }
+  }
+]

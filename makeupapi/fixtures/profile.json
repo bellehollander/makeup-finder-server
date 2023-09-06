@@ -1,0 +1,34 @@
+[
+  {
+    "model": "makeupapi.Profile",
+    "pk": 1,
+    "fields": {
+      "User": 2,
+      "makeup_skill": 1
+    }
+  },
+  {
+    "model": "makeupapi.Profile",
+    "pk": 2,
+    "fields": {
+      "User": 3,
+      "makeup_skill": 2
+    }
+  },
+  {
+    "model": "makeupapi.Profile",
+    "pk": 3,
+    "fields": {
+      "User": 4,
+      "makeup_skill": 3
+    }
+  },
+  {
+    "model": "makeupapi.Profile",
+    "pk": 4,
+    "fields": {
+      "User": 5,
+      "makeup_skill": 3
+    }
+  }
+]

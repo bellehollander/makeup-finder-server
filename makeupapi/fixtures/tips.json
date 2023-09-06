@@ -1,0 +1,92 @@
+[
+  {
+    "model": "makeupapi.tips",
+    "pk": 1,
+    "fields": {
+      "description": "Use a makeup sponge to apply foundation for a flawless finish.",
+      "label": "Foundation Tip",
+      "makeup_skill": 1
+    }
+  },
+  {
+    "model": "makeupapi.tips",
+    "pk": 2,
+    "fields": {
+      "description": "Blend your eyeshadow colors well for a seamless look.",
+      "label": "Eyeshadow Tip",
+      "makeup_skill": 2
+    }
+  },
+  {
+    "model": "makeupapi.tips",
+    "pk": 3,
+    "fields": {
+      "description": "Apply mascara to your eyelashes from root to tip for voluminous lashes.",
+      "label": "Mascara Tip",
+      "makeup_skill": 1
+    }
+  },
+  {
+    "model": "makeupapi.tips",
+    "pk": 4,
+    "fields": {
+      "description": "Use a lip liner to define your lips before applying lipstick.",
+      "label": "Lip Liner Tip",
+      "makeup_skill": 3
+    }
+  },
+  {
+    "model": "makeupapi.tips",
+    "pk": 5,
+    "fields": {
+      "description": "Set your makeup with a translucent powder to make it last longer.",
+      "label": "Makeup Setting Tip",
+      "makeup_skill": 2
+    }
+  },
+  {
+    "model": "makeupapi.tips",
+    "pk": 6,
+    "fields": {
+      "description": "Contour your face for a sculpted and defined look.",
+      "label": "Contouring Tip",
+      "makeup_skill": 4
+    }
+  },
+  {
+    "model": "makeupapi.tips",
+    "pk": 7,
+    "fields": {
+      "description": "Use a makeup primer to create a smooth canvas for your foundation.",
+      "label": "Primer Tip",
+      "makeup_skill": 1
+    }
+  },
+  {
+    "model": "makeupapi.tips",
+    "pk": 8,
+    "fields": {
+      "description": "Apply blush to the apples of your cheeks for a natural flush.",
+      "label": "Blush Tip",
+      "makeup_skill": 2
+    }
+  },
+  {
+    "model": "makeupapi.tips",
+    "pk": 9,
+    "fields": {
+      "description": "Use an angled brush for precise eyebrow shaping.",
+      "label": "Eyebrow Tip",
+      "makeup_skill": 3
+    }
+  },
+  {
+    "model": "makeupapi.tips",
+    "pk": 10,
+    "fields": {
+      "description": "Create a smoky eye look with dark eyeshadow shades for a dramatic effect.",
+      "label": "Smoky Eye Tip",
+      "makeup_skill": 4
+    }
+  }
+]
