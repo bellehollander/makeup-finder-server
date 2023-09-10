@@ -18,7 +18,7 @@ Including another URLconf
 from django.contrib import admin
 from django.conf.urls import include
 from django.urls import path
-from makeupapi.views import register_user, login_user, ProductViewSet, ProductTypeViewSet, TipsViewSet, ProfilePreferencesViewSet, ProfileViewSet, MakeupPreferencesViewSet, WishlistViewSet, MakeupSkillViewSet, UserViewSet
+from makeupapi.views import register_user, login_user, ProductViewSet, ProductTypeViewSet, TipsViewSet, ProfilePreferencesViewSet, ProfileViewSet, MakeupPreferencesViewSet, WishlistViewSet, MakeupSkillViewSet, UserViewSet, current_user_profile
 from rest_framework import routers
 
 router = routers.DefaultRouter(trailing_slash=False)
@@ -39,4 +39,5 @@ urlpatterns = [
     path('login', login_user),
     path('admin/', admin.site.urls),
     path('', include(router.urls)),
+    path('currentuserprofile', current_user_profile)
 ]

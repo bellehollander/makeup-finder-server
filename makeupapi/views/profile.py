@@ -8,7 +8,10 @@ from django.contrib.auth.models import User
 
 class ProfileViewSet(ViewSet):
     def retrieve(self, request, pk=None):
+        profile = []
         profile = Profile.objects.get(pk=pk)
+        if "current" in request.query_params:
+            profile = Profile.objects.get(user=request.auth.user)
         serializer = ProfileSerializer(profile, many=False)
         return Response(serializer.data)
 

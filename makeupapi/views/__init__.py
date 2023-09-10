@@ -8,3 +8,4 @@ from .makeup_preference import MakeupPreferencesViewSet
 from .wishlist import WishlistViewSet
 from .makeup_skill import MakeupSkillViewSet
 from .users import UserViewSet
+from .tryCurrent import current_user_profile
