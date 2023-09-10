@@ -11,10 +11,10 @@ from rest_framework.response import Response
 @api_view(['POST'])
 @permission_classes([AllowAny])
 def login_user(request):
-    email = request.data['email']
+    username = request.data['username']
     password = request.data['password']
 
-    authenticated_user = authenticate(username=email, password=password)
+    authenticated_user = authenticate(username=username, password=password)
 
     if authenticated_user is not None:
         token = Token.objects.get(user=authenticated_user)
@@ -63,7 +63,7 @@ def register_user(request):
             new_user.save()
 
         token = Token.objects.create(user=new_user)
-        data = { 'token': token.key, 'staff': new_user.is_staff }
+        data = { 'token': token.key, 'staff': new_user.is_staff, 'valid': True }
         return Response(data)
 
     return Response({'message': 'You must provide email, password, first_name, last_name, and account_type'}, status=status.HTTP_400_BAD_REQUEST)

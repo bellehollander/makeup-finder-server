@@ -4,6 +4,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from makeupapi.models import ProfilePreference, Profile, MakeupPreferences
 
+
 class ProfilePreferencesViewSet(ViewSet):
     def retrieve(self, request, pk=None):
         profile_preferences = ProfilePreference.objects.get(pk=pk)
@@ -15,18 +16,20 @@ class ProfilePreferencesViewSet(ViewSet):
         serializer = ProfilePreferencesSerializer(profile_preferences, many=True)
         return Response(serializer.data)
 
+   
+
     def create(self, request):
         profile_preferences = ProfilePreference.objects.create(
-        Profile = Profile.objects.get(pk=request.data['profile']),
-         MakeupPreferences = MakeupPreferences.objects.get(pk=request.data['makeup_preferences'])
-        )
+             Profile=Profile.objects.get(pk=request.data['Profile']),
+            MakeupPreferences=MakeupPreferences.objects.get(pk=request.data['MakeupPreferences'])
+     )
         serializer = ProfilePreferencesSerializer(profile_preferences, many=False)
         return Response(serializer.data)
 
     def update(self, request, pk=None):
         profile_preferences = ProfilePreference.objects.get(pk=pk)
-        profile_preferences.profile = Profile.objects.get(pk=request.data['profile'])
-        profile_preferences.MakeupPreferences = MakeupPreferences.objects.get(pk=request.data['makeup_preferences'])
+        profile_preferences.profile = Profile.objects.get(pk=request.data['user_id'])
+        profile_preferences.MakeupPreferences = MakeupPreferences.objects.get(pk=pk)
         serializer = ProfilePreferencesSerializer(profile_preferences, many=False)
         return Response(serializer.data)
 

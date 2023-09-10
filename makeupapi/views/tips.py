@@ -17,11 +17,12 @@ class TipsViewSet(ViewSet):
         return Response(serializer.data)
 
     def create(self, request):
+        makeup_skill = MakeupSkill.objects.get(pk=request.data['makeup_skill'])
         tips = Tips.objects.create(
             label=request.data['label'],
             description=request.data['description'],
             image=request.data['image'],
-            makeup_skill = MakeupSkill.objects.get(pk=request.data['makeup_skill'])
+            makeup_skill = makeup_skill
         )
         serializer = TipsSerializer(tips, many=False)
         return Response(serializer.data)

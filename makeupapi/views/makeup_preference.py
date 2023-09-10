@@ -11,7 +11,30 @@ class MakeupPreferencesViewSet(ViewSet):
         return Response(serializer.data)
 
     def list(self, request):
+        makeup_preferences = []
         makeup_preferences = MakeupPreferences.objects.all()
+        if self.request.query_params.get('eyeshadow', None) is not None:
+            makeup_preferences = makeup_preferences.filter(product_type__id=2)
+        if self.request.query_params.get('blush', None) is not None:
+            makeup_preferences = makeup_preferences.filter(product_type__id=4)
+        if self.request.query_params.get('lipstick', None) is not None:
+            makeup_preferences = makeup_preferences.filter(product_type__id=1)
+        if self.request.query_params.get('foundation', None) is not None:
+            makeup_preferences = makeup_preferences.filter(product_type__id=3)
+        if self.request.query_params.get('mascara', None) is not None:
+            makeup_preferences = makeup_preferences.filter(product_type__id=9)
+        if self.request.query_params.get('eyeliner', None) is not None:
+            makeup_preferences = makeup_preferences.filter(product_type__id=10)
+        if self.request.query_params.get('bronzer', None) is not None:
+            makeup_preferences = makeup_preferences.filter(product_type__id=6)
+        if self.request.query_params.get('highlighter', None) is not None:
+            makeup_preferences = makeup_preferences.filter(product_type__id=8)
+        if self.request.query_params.get('concealer', None) is not None:
+            makeup_preferences = makeup_preferences.filter(product_type__id=7)
+        if self.request.query_params.get('contour', None) is not None:
+            makeup_preferences = makeup_preferences.filter(product_type__id=5)
+
+
         serializer = MakeupPreferencesSerializer(makeup_preferences, many=True)
         return Response(serializer.data)
     def create(self, request):

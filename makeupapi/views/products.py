@@ -30,6 +30,7 @@ class ProductViewSet(ViewSet):
        serializer = ProductSerializer(product, many=False)
        return Response(serializer.data)
     def update(self, request, pk=None):
+        makeup_prefrences = MakeupPreferences.objects.get(pk=request.data['makeup_preferences'])
         product = Product.objects.get(pk=pk)
         product.label = request.data['label']
         product.brand = request.data['brand']
@@ -37,7 +38,7 @@ class ProductViewSet(ViewSet):
         product.description = request.data['description']
         product.image = request.data['image']
         product.link = request.data['link']
-        product.makeup_preferences = MakeupPreferences.objects.get(pk=request.data['makeup_preferences'])
+        product.makeup_preferences = makeup_prefrences
         product.save()
         serializer = ProductSerializer(product, many=False)
         return Response(serializer.data)
