@@ -22,6 +22,7 @@ class ProfilePreferencesViewSet(ViewSet):
         profile_preferences = ProfilePreference.objects.create(
              Profile=Profile.objects.get(pk=request.data['Profile']),
             MakeupPreferences=MakeupPreferences.objects.get(pk=request.data['MakeupPreferences'])
+            
      )
         serializer = ProfilePreferencesSerializer(profile_preferences, many=False)
         return Response(serializer.data)
