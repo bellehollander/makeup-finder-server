@@ -18,7 +18,7 @@ Including another URLconf
 from django.contrib import admin
 from django.conf.urls import include
 from django.urls import path
-from makeupapi.views import register_user, login_user, ProductViewSet, ProductTypeViewSet, TipsViewSet, ProfilePreferencesViewSet, ProfileViewSet, MakeupPreferencesViewSet, WishlistViewSet, MakeupSkillViewSet, UserViewSet, current_user_profile
+from makeupapi.views import register_user, login_user, ProductViewSet, ProductTypeViewSet, TipsViewSet, ProfilePreferencesViewSet, ProfileViewSet, MakeupPreferencesViewSet, WishlistViewSet, MakeupSkillViewSet, UserViewSet, current_user_profile, ProductReviewViewSet
 from rest_framework import routers
 
 router = routers.DefaultRouter(trailing_slash=False)
@@ -31,6 +31,7 @@ router.register(r'makeuppreferences', MakeupPreferencesViewSet, 'makeuppreferenc
 router.register(r'wishlist', WishlistViewSet, 'wishlist')
 router.register(r'makeupskill', MakeupSkillViewSet, 'makeupskill')
 router.register(r'users', UserViewSet, 'user')
+router.register(r'productreviews', ProductReviewViewSet, 'productreview')
 
 
 

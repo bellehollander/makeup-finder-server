@@ -6,5 +6,6 @@ from .tips import Tips
 from .profile import Profile
 from .wishlist import Wishlist
 from .profile_prefrence import ProfilePreference
+from .product_reviews import ProductReview
 
 
