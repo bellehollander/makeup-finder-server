@@ -1,0 +1,42 @@
+[
+  {
+    "model": "makeupapi.ProductReview",
+    "pk": 1,
+    "fields": {
+      "rating": 6,
+      "review": "this product was just ok.",
+      "profile": 1,
+      "product": 1
+    }
+  },
+  {
+    "model": "makeupapi.ProductReview",
+    "pk": 2,
+    "fields": {
+      "rating": 9,
+      "review": "this product was great!!",
+      "profile": 2,
+      "product": 1
+    }
+  },
+  {
+    "model": "makeupapi.ProductReview",
+    "pk": 3,
+    "fields": {
+      "rating": 1,
+      "review": "this product was the worst.",
+      "profile": 3,
+      "product": 2
+    }
+  },
+  {
+    "model": "makeupapi.ProductReview",
+    "pk": 4,
+    "fields": {
+      "rating": 10,
+      "review": "literally use this everyday.",
+      "profile": 3,
+      "product": 1
+    }
+  }
+]
